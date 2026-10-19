@@ -1,0 +1,20 @@
+# Analysis (notebooks/02_analysis.ipynb) - tested with these versions
+pandas>=2.2
+numpy>=1.26
+scipy>=1.13
+matplotlib>=3.8
+seaborn>=0.13
+statsmodels>=0.14
+scikit-posthocs>=0.9
+scikit-learn>=1.4
+jupyterlab
+
+# Data pipeline (src/)
+apify-client>=1.7
+google-genai>=1.0
+
+# Tests
+pytest
+
+# notebooks/01_judge_validation_liar.ipynb was run with the legacy SDK:
+# pip install google-generativeai
